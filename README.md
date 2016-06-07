@@ -7,8 +7,8 @@ http://localhost:3000/book?lattitude={lattitude}&longitude={longitude}&color={co
 
 type: **GET**
 
-parameters: lattitude - lattitude of the user
-            longitude - longitude of the user
+parameters: lattitude - lattitude of the user,
+            longitude - longitude of the user,
             color - color of the cab required
 
 ## Complete a Ride
@@ -16,8 +16,8 @@ http://localhost:3000/complete?id={id}&lattitude={lattitude}&longitude={longitud
 
 type: **GET**
 
-parameters: lattitude - lattitude of the destination
-            longitude - longitude of the destination
+parameters: lattitude - lattitude of the destination,
+            longitude - longitude of the destination,
             id - Cab ID
 
 
