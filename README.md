@@ -22,16 +22,12 @@ You are the proprietor of fuber-cabs, an on call taxi service.
 ### Book a cab
 http://localhost:3000/book?lattitude={lattitude}&longitude={longitude}&color={color}
 
-type: **GET**
-
 parameters: lattitude - lattitude of the user,
             longitude - longitude of the user,
             color - color of the cab required
 
 ### Complete a Ride
 http://localhost:3000/complete?id={id}&lattitude={lattitude}&longitude={longitude}
-
-type: **GET**
 
 parameters: lattitude - lattitude of the destination,
             longitude - longitude of the destination,
