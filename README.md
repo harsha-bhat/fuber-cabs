@@ -1,4 +1,4 @@
-# fuber - Cab Service
+# fuber-cabs
 
 You are the proprietor of füber, an on call taxi service.
 
